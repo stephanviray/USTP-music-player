@@ -13,7 +13,7 @@ import LogoutScreen from './screens/LogoutScreen';
 import ProfileEditScreen from './screens/ProfileEditScreen';
 import SubscriptionScreen from './screens/SubscriptionScreen';
 import CustomDrawerContent from './CustomDrawerContent';
-import TransactionScreen from './screens/TransactionScreen';  // Import the new screen
+import TransactionScreen from './screens/TransactionScreen';  
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -93,7 +93,7 @@ export default function App() {
             )}
           />
         )}
-        {/* Add the TransactionScreen here */}
+ 
         <Stack.Screen 
           name="TransactionScreen" 
           component={TransactionScreen} 
